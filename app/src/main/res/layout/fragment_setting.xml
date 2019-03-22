@@ -1,0 +1,208 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/title_Color"
+    tools:context="android.feed.com.rssfeeds.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="Push Notificaions"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:paddingLeft="5dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="New article"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.github.angads25.toggle.LabeledSwitch
+
+                    android:id="@+id/swt_article_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    app:colorOn="#82d172"
+                    android:textSize="14sp"
+                    app:on="true"
+                    app:colorBorder="#82d172"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:paddingLeft="5dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="New video"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.github.angads25.toggle.LabeledSwitch
+
+                    android:id="@+id/swt_video_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    app:colorOn="#82d172"
+                    android:textSize="14sp"
+                    app:on="true"
+                    app:colorBorder="#82d172"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:paddingLeft="5dp"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="New podcast"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.github.angads25.toggle.LabeledSwitch
+
+                    android:id="@+id/swt_podcast_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    app:colorOn="#82d172"
+                    android:textSize="14sp"
+                    app:on="true"
+                    app:colorBorder="#82d172"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@android:color/transparent"
+            android:text="Privacy Policy"
+            android:gravity="center_vertical|left"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            />
+        <LinearLayout
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_email"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="Send feedback or comments to\n\nroosh@rooshv.com"
+
+            android:background="@android:color/transparent"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            />
+        <LinearLayout
+            android:background="#898989"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

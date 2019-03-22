@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_article"
+        android:icon="@drawable/img_article"
+        android:title="Articles" />
+
+    <item
+        android:id="@+id/action_video"
+        android:icon="@drawable/img_video"
+        android:title="Videos" />
+
+    <item
+        android:id="@+id/action_podcast"
+        android:icon="@drawable/img_podcast"
+        android:title="Podcasts" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/img_settings"
+        android:title="Settings" />
+
+
+</menu>

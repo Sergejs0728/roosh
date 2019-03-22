@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "117611114227",
+    "firebase_url": "https://roosh-app.firebaseio.com",
+    "project_id": "roosh-app",
+    "storage_bucket": "roosh-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117611114227:android:37c3d513f93b9dd9",
+        "android_client_info": {
+          "package_name": "android.feed.com.rssfeeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117611114227-67cunvgek44cnec7i31fogeh1cmm1loi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.feed.com.rssfeeds",
+            "certificate_hash": "2d137a5270bbcac44a8545f629bf2b2053f510dc"
+          }
+        },
+        {
+          "client_id": "117611114227-mvpese26e2j8rj3qk65op9jt56vn8rua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_jvucxq5iMp1ZPLu9iw17pSi7Ta421M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117611114227-mvpese26e2j8rj3qk65op9jt56vn8rua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
